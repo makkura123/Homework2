@@ -5,6 +5,10 @@
 package gerbilarraylist;
 import java.util.ArrayList;
 
+/**
+ *
+ * @author Neele
+ */
 public class GerbilArrayList {
 
     /**
@@ -13,7 +17,7 @@ public class GerbilArrayList {
     public static void main(String[] args) {
         ArrayList<Gerbil> Gerbils = new ArrayList<Gerbil>();
         /**
-         * @ for loop for adding gerbils to ArrayList
+         * for loop for adding gerbils to ArrayList
          */
         for (int i = 0; i < 25; i++){
             Gerbils.add(new Gerbil(i));
