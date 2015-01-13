@@ -2,7 +2,7 @@
  * Calculation for pi
  * @author Neele
  */
-package computingpi;
+package guipi;
 
 
 public class Calculation {
@@ -11,18 +11,20 @@ public class Calculation {
  * x - denominator, sign - used to alternate between signs
  */
    public int x = 1;
-   public double pi = 0;
+   public float pi = 0;
    public int sign = 1;
        
    /**
-    * Uses Leibniz Series to calculate pi and prints it in a table
+    * Uses Leibniz Series to calculate pi
+    *@param - number of iterations
     */
-   public void CalculatePi(){
-        for (int i = 1; i <= 200000; i++){
+   public float CalculatePi(int n){
+        for (int i = 1; i <= n; i++){
             pi += sign * 4.0 / x;
             sign *= -1;
             x += 2;
-            System.out.printf("Iteration: %s, PI: %s\n", i, pi);
+           
         }
+        return pi;
    }
 }
