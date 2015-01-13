@@ -16,7 +16,8 @@ public class Calculation {
        
    /**
     * Uses Leibniz Series to calculate pi
-    *@param - number of iterations
+    *@param n for integer of iterations
+    *@return pi
     */
    public float CalculatePi(int n){
         for (int i = 1; i <= n; i++){
