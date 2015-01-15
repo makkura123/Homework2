@@ -19,7 +19,7 @@ public class Calculation {
     */
    public void CalculatePi(){
         for (int i = 1; i <= 200000; i++){
-            pi += sign * 4.0 / x;
+            pi += sign * 4.0 / x; //PT -- good
             sign *= -1;
             x += 2;
             System.out.printf("Iteration: %s, PI: %s\n", i, pi);

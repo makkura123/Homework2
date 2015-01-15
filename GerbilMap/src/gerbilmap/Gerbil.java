@@ -4,7 +4,7 @@
  */
 package gerbilmap;
 
-
+//PT -- reuse, don't copy/paste. -2
 public class Gerbil {
     private final int _GerbilNumber;
     /**

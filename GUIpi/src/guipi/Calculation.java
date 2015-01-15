@@ -4,7 +4,7 @@
  */
 package guipi;
 
-
+//PT -- this can again be reused
 public class Calculation {
 /**
  * Initialize values

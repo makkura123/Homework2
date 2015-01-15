@@ -5,7 +5,7 @@
  */
 package gerbiliterator;
 
-
+//PT -- use the class in GerbilArrayList. Don't copy/paste it here. -2
 public class Gerbil {
     private final int _GerbilNumber;
     /**
